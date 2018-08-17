@@ -15,7 +15,7 @@ if you don't want to build it by yourself I sold it fully assembled and tested o
 I build batches of that so maybe it will not be ever available.
 
 Using the Simple Wifi Modem
-Plug it into a RS232 DB25 port (or, through an adapter, into a 9 pin serial) and power it connecting a standard micro usb  to a USB port capable of providing at least 100mA at 5v DC.
+Plug it into an RS232 DB25 port (or, through an adapter, into a 9 pin serial) and power it connecting a standard micro usb cable to a USB port capable of providing at least 100mA at 5v DC.
 The device will turn on the Power LED (and CTS led if the jumper for flow control hardware is inserted).
 Power on your computer and launch an ASCII terminal program and set the baud rate to 1200.
 If you now type ATI you must see the welcome message.
