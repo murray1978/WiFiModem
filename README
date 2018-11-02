@@ -22,6 +22,18 @@ If you now type ATI you must see the welcome message.
 To configure it use the command AT+CONFIG, follow the instructions and connect to a wireless router.  
 When connected you can dial in to a bbs using ATDT [HOSTNAME]:[PORT]
 
+Hardware flow control
+Due to the limitations of the ESP-01 (there is only one GPIO available) having full hardware flow control support is impossible. I decided to test a partial implementation: the CTS pin will always remain high, while the RTS is connected to the GPIO2.
+To use it put the jumpers on “hardware flow control” (the two pin jumper) and on the RTS side of the jumper “flow control”.
+The CTS led will remain always on, the CTS led will respect the status of the RS232 pin.
+In the terminal use the ATF0 command to enable the flow control (the default state is off).
+
+Firmware upgrade
+If needed you can upgrade the modem firmware or install whatever software you want. You can do in two ways. In both cases remove all the flow control jumpers: it’s better to leave GPIO2 low during these type of operations.
+The first way is to upgrade the firmare directly from the modem: just check if there is a new release available with the command AT&U and, if there is a new update type in the command AT&U6502.
+Wait a couple of minutes and the modem will update itself to the latest firmware available.
+The second way to update it is using Arduino or PortIO: just download the firmware, install the ESP8266 board manager, select the ESP8266 generic board, unplug the power cord, and plug it again while keeping pressed the reset button on the modem.
+
 ----------------------------------------------------------------------------------
 
 These are the original and complete instructions written by Bo Zimmerman
