@@ -11,7 +11,7 @@ You can update the firmware from sources using Arduino or PortIO: The only suppo
 
 **ESP8266 **
 
-This method is the simplest one: you need a Windows computer, the software [NodeMCU Flasher](https://github.com/nodemcu/nodemcu-flasher) and the precompiled [firmware](https://github.com/8bit-bruno/WiFiModem/firmware/zimodem.ino.generic.bin).
+This method is the simplest one: you need a Windows computer, the software [NodeMCU Flasher](https://github.com/nodemcu/nodemcu-flasher) and the precompiled [firmware](/firmware/zimodem.ino.generic.bin).
 
 Step 1
 
@@ -27,6 +27,6 @@ Advanced tab: these are the correct parameters
 
 Step 3
 
-![Operation tab](firmware/Capture3.PNG)
-
 Operation tab: select the com port and then click on flash. The firmware will be loaded on the modem. After the confirm of the operation you can close the NodeMCU Flasher and reset the modem (disconnecting the usb power cable). The modem is ready!
+
+![Operation tab](firmware/Capture3.PNG)

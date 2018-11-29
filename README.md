@@ -39,7 +39,5 @@ In the terminal use the ATF0 command to enable the flow control (the default sta
 
 If needed you can upgrade the modem firmware or install whatever software you want. You can do in multiple ways. In every cases remove all the flow control jumpers: it’s better to leave GPIO2 low during these type of operations.
 
-These are the complete instructions to load a firmware on the Simple Wifi RS232 modem.
-
-[These are the complete instructions to load a firmware on the Simple Wifi RS232 modem.](https://github.com/8bit-bruno/WiFiModem/FIRMWARE.md)
+[These are the complete instructions to load a firmware on the Simple Wifi RS232 modem.](/FIRMWARE.md)
 
