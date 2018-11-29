@@ -14,7 +14,7 @@ The software installed is a fork of Zimodem written by Bo Zimmerman
 [https://github.com/bozimmerman/Zimodem](https://github.com/bozimmerman/Zimodem). 
 It has just been modified to support this device.
 
-if you don't want to build it by yourself i sold it fully assembled and tested on ebay (search for "Simple Wifi RS232 Modem"), [Etsy](https://www.etsy.com/shop/HALsFriends) and directly in [my own website](https://www.museo-computer.it/product-category/hardware/). 
+if you don't want to build it by yourself i sold it fully assembled and tested on ebay (search for "Simple Wifi RS232 Modem") and on [Etsy](https://www.etsy.com/shop/HALsFriends). 
 I build batches of that so maybe it will not be ever available.
 
 **Using the Simple Wifi Modem**
@@ -26,7 +26,7 @@ If you now type ATI you must see the welcome message.
 To configure it use the command AT+CONFIG, follow the instructions and connect to a wireless router.  
 When connected you can dial in to a bbs using ATDT [HOSTNAME]:[PORT]
 
-[This is the complete list of commands available.](https://github.com/8bit-bruno/WiFiModem/commands)
+[This is the complete list of commands available.](/commands)
 
 **Hardware flow control**
 
