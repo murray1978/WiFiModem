@@ -9,7 +9,7 @@ Wait a couple of minutes and the modem will update itself to the latest firmware
 
 You can update the firmware from sources using Arduino or PortIO: The only supported version of Arduino is rev 1.6.11. Download the sources from GitHub, install the ESP8266 board manager, select the ESP8266 generic board, unplug the modem power supply, and plug it again while keeping pressed the reset button on the modem.
 
-**ESP8266 **
+**NodeMCU Flasher**
 
 This method is the simplest one: you need a Windows computer, the software [NodeMCU Flasher](https://github.com/nodemcu/nodemcu-flasher) and the precompiled [firmware](/firmware/zimodem.ino.generic.bin).
 
