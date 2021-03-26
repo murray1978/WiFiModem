@@ -102,7 +102,7 @@ const char compile_date[] = __DATE__ " " __TIME__;
 # define DEFAULT_DTR_LOW  HIGH
 #endif
 
-#define DEFAULT_BAUD_RATE 1200
+#define DEFAULT_BAUD_RATE 9600
 #define DEFAULT_SERIAL_CONFIG SERIAL_8N1
 #define MAX_PIN_NO 50
 
